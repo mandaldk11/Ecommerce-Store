@@ -1,0 +1,28 @@
+
+
+@media screen and (min-width: 412px) {
+    .sliderImg{
+        height: 350px;
+       
+    }
+  }
+
+  @media screen and (min-width: 280px) {
+    .sliderImg{
+        height: 320px;
+        width: 380px;
+    }
+  }
+
+  @media screen and (min-width: 912px) {
+    .sliderImg{
+        height: 520px;
+        /* width: 300px; */
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .sliderImg{
+        height: 420px;
+        /* width: 300px; */
+    }
+  }

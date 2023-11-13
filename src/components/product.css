@@ -1,0 +1,22 @@
+
+
+.image-container{
+    overflow: hidden;
+    position: relative;
+}
+
+.zoomable-image {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s;
+}
+
+.zoomable-image:hover {
+    transform: scale(1.2); 
+    z-index: 1;
+}
+
+.zoomable-image:focus {
+    transform: scale(0.8); 
+    outline: none; 
+}
